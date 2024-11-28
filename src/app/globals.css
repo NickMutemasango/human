@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* For smoother background transitions */
+div[style*="backgroundImage"] {
+    transition: background-image 0.7s ease-in-out, opacity 0.7s ease-in-out;
+  }
+  
